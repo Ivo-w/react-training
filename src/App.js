@@ -1,15 +1,15 @@
+import React from "react";
 import './App.css';
-import './navBar.js';
-//import 'bootstrap/dist/css/bootstrap.min.css';
+import navBar from './navBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App () {
   return ( 
-    <React.Fragment>
+    <>
 
-    <h1>Hola como va.</h1>
+    <navBar />
 
-
-    </React.Fragment>
+    </>
   );  
 }
 
